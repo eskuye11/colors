@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="color-wraper">
+        <h1>Get Random Color</h1>
+        <div class="colors">
+
+          <div class="hexcontent contents">
+            <h3>HEX:</h3>
+            <span id="hex" class="rightside">
+              <p id="hextext">#FFA500</p> <img src="./images/clipboard.png" alt="copy">
+            </span>
+          </div>
+
+          <div class="rgbcontent contents">
+            <h3>RGB:</h3>
+            <span id="rgb" class="rightside">
+              <p id="rgbtext"> rgb(255, 165, 0) </p> <img src="./images/clipboard.png" alt="copy">
+            </span>
+          </div>
+
+          <div class="hslcontent contents">
+            <h3>HSL:</h3>
+            <span id="hsl" class="rightside">
+              <p id="hsltext"> hsl(39°, 100%, 50%) </p> <img src="./images/clipboard.png" alt="copy">
+            </span>
+          </div>
+
+        </div>
+        <div class="buttons">
+          <div class="current-color" id="color"></div>
+          <button class="getbtn" id="getbtn">Random Color</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+
+</html>

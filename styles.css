@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: #f6c688;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: azure;
+  width: 23rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.125);
+}
+
+.container h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #777;
+  margin: 1.5rem 0;
+}
+
+.container .colors {
+  margin: 2.6rem 0;
+}
+
+.container .colors .contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  background-color: #e1f9f9;
+  padding: 0.4rem;
+  margin: 0.2rem 0;
+  border-radius: 0.2rem;
+}
+
+.container .colors .rightside {
+  display: flex;
+  align-items: center;
+}
+
+.container .colors img {
+  width: 1rem;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.container .colors img:hover {
+  background-color: rgb(152, 206, 206);
+}
+
+.container .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+
+}
+
+.container .buttons .current-color {
+  border: 2px solid #777;
+  width: 8.5rem;
+  height: 2rem;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  background-color: #ffa500;
+}
+
+.container .buttons button {
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: orange;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.container .buttons button:hover {
+  filter: brightness(0.9);
+}
