@@ -28,6 +28,9 @@ body {
   color: #777;
   margin: 1.5rem 0;
 }
+.container h3 {
+  font-weight: 300;
+}
 
 .container .colors {
   margin: 2.6rem 0;
